@@ -1,0 +1,125 @@
+input:nth-of-type(3):checked ~
+input:nth-of-type(8):not(:checked) ~
+input:nth-of-type(34):checked {
+  counter-increment: h 3 g 1 r 3 f 1 k 2;
+}
+
+input:nth-of-type(2):not(:checked) ~
+input:nth-of-type(39):checked ~
+input:nth-of-type(44):not(:checked) {
+  counter-increment: n 3 s 3 f 1 d 3;
+}
+
+input:nth-of-type(30):not(:checked) ~
+input:nth-of-type(42):not(:checked) ~
+input:nth-of-type(45):not(:checked) {
+  counter-increment: f 1 s 3 r 3 g 3;
+}
+
+input:nth-of-type(5):checked ~
+input:nth-of-type(29):not(:checked) ~
+input:nth-of-type(35):not(:checked) {
+  counter-increment: l 3 p 3 y 1 e 3;
+}
+
+input:nth-of-type(15):not(:checked) ~
+input:nth-of-type(17):not(:checked) ~
+input:nth-of-type(32):not(:checked) {
+  counter-increment: l 3 r 3 y 1 e 3;
+}
+
+input:nth-of-type(7):not(:checked) ~
+input:nth-of-type(18):not(:checked) ~
+input:nth-of-type(23):not(:checked) {
+  counter-increment: e 3 n 2 v 2 h 3;
+}
+
+input:nth-of-type(28):not(:checked) ~
+input:nth-of-type(31):not(:checked) ~
+input:nth-of-type(37):checked {
+  counter-increment: s 3 g 3 k 2 v 1 r 1;
+}
+
+input:nth-of-type(12):checked ~
+input:nth-of-type(38):not(:checked) ~
+input:nth-of-type(49):checked {
+  counter-increment: s 1 h 3 l 3 v 3;
+}
+
+input:nth-of-type(10):not(:checked) ~
+input:nth-of-type(21):not(:checked) ~
+input:nth-of-type(26):checked {
+  counter-increment: s 3 o 1 y 1 l 3;
+}
+
+input:nth-of-type(24):not(:checked) ~
+input:nth-of-type(33):not(:checked) ~
+input:nth-of-type(41):checked {
+  counter-increment: y 1 g 3 s 3 e 3;
+}
+
+input:nth-of-type(6):not(:checked) ~
+input:nth-of-type(14):checked ~
+input:nth-of-type(19):not(:checked) {
+  counter-increment: l 3 u 3 s 3 v 1;
+}
+
+input:nth-of-type(1):checked ~
+input:nth-of-type(9):not(:checked) ~
+input:nth-of-type(25):not(:checked) {
+  counter-increment: s 3 v 3 c 3 l 1;
+}
+
+input:nth-of-type(4):not(:checked) ~
+input:nth-of-type(43):checked ~
+input:nth-of-type(47):checked {
+  counter-increment: p 3 s 3 v 1 l 3;
+}
+
+input:nth-of-type(13):checked ~
+input:nth-of-type(20):not(:checked) ~
+input:nth-of-type(48):checked {
+  counter-increment: n 3 r 3 j 1 l 3;
+}
+
+input:nth-of-type(27):checked ~
+input:nth-of-type(36):not(:checked) ~
+input:nth-of-type(46):not(:checked) {
+  counter-increment: n 3 s 3 e 3 v 1;
+}
+
+input:nth-of-type(16):checked ~
+input:nth-of-type(22):not(:checked) ~
+input:nth-of-type(40):not(:checked) {
+  counter-increment: h 3 n 1 p 2 s 3 f 1;
+}
+
+input:nth-of-type(11):not(:checked) ~
+input:nth-of-type(12):checked ~
+input:nth-of-type(24):not(:checked) {
+  counter-increment: s 3 n 3 y 1 h 3;
+}
+
+input:nth-of-type(25):not(:checked) ~
+input:nth-of-type(26):checked ~
+input:nth-of-type(38):not(:checked) {
+  counter-increment: s 3 y 1 l 3 h 3;
+}
+
+input:nth-of-type(15):not(:checked) ~
+input:nth-of-type(17):not(:checked) ~
+input:nth-of-type(21):not(:checked) {
+  counter-increment: r 3 g 3 y 1 s 3;
+}
+
+input:nth-of-type(11):not(:checked) ~
+input:nth-of-type(13):checked ~
+input:nth-of-type(15):not(:checked) {
+  counter-increment: s 3 i 3 f 1 g 3;
+}
+
+input:nth-of-type(10):not(:checked) ~
+input:nth-of-type(11):not(:checked) ~
+input:nth-of-type(20):not(:checked) {
+  counter-increment: f 1 s 3 g 3 n 3;
+}

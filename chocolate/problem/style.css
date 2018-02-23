@@ -1,0 +1,125 @@
+:root {
+  --message: "Here's a chocolate cookie for you, find FLAG" /* FLAG{s.................} */ "!";
+  --cacao: "C";
+  --ushio: "h";
+  --banana: "1";
+}
+
+#message {
+  margin-bottom: 10px;
+}
+
+#message::after {
+  content: var(--message); 
+}
+
+span {
+  width: 30px;
+  padding: 0;
+}
+
+input {
+  appearance: button;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  background-color: rgb(110, 56, 12);
+  positon: relative;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  margin-top: -2px;
+}
+
+input:checked {
+  background-color: rgb(37, 27, 20);
+}
+
+span:empty::after { content: "?"; }
+
+span:first-of-type::after {
+  content: counter(f, upper-alpha);
+}
+
+span:first-of-type+*::after {
+  content: counter(v, upper-alpha);
+}
+
+span:first-of-type+*+*::after {
+  content: counter(j, upper-alpha);
+}
+
+span:first-of-type+*+*+*::after {
+  content: counter(y, upper-alpha);
+}
+
+span:first-of-type+*+*+*+*::after {
+  content: counter(g, lower-alpha);
+}
+
+span:first-of-type+*+*+*+*+*::after {
+  content: counter(q);
+}
+
+span:first-of-type+*+*+*+*+*+*::after {
+  content: counter(h, lower-alpha);
+}
+
+span:first-of-type+*+*+*+*+*+*+*::after {
+  content: counter(n, lower-alpha);
+}
+
+span:first-of-type+*+*+*+*+*+*+*+*::after {
+  content: counter(l, lower-alpha);
+}
+
+span:first-of-type+*+*+*+*+*+*+*+*+*::after {
+  content: counter(k);
+}
+
+span:first-of-type+*+*+*+*+*+*+*+*+*+*::after {
+  content: counter(c, upper-alpha);
+}
+
+span:first-of-type+*+*+*+*+*+*+*+*+*+*+*::after {
+  content: var(--ushio);
+}
+
+span:first-of-type+*+*+*+*+*+*+*+*+*+*+*+*::after {
+  content: counter(i);
+}
+
+span:first-of-type+*+*+*+*+*+*+*+*+*+*+*+*+*::after {
+  content: counter(o, lower-alpha);
+}
+
+span:first-of-type+*+*+*+*+*+*+*+*+*+*+*+*+*+*::after {
+  content: counter(r, lower-alpha);
+}
+
+span:first-of-type+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*::after { 
+  content: var(--cacao);
+}
+
+span:first-of-type+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*::after {
+  content: counter(p, lower-alpha);
+}
+
+span:first-of-type+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*::after {
+  content: counter(t, lower-alpha) counter(d, lower-alpha);
+}
+
+span:first-of-type+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*::after {
+  content: counter(e, lower-alpha) var(--banana);
+}
+
+span:first-of-type+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*::after {
+  content: counter(s, lower-alpha);
+}
+
+span:first-of-type+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*::after {
+  content: counter(u);
+}
+
+span:first-of-type+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*::after {
+  content: '}';
+}
